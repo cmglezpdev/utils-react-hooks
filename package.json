@@ -34,16 +34,16 @@
     "trailingComma": "es5",
     "tabWidth": 4
   },
-  "name": "utils-react-hooks",
+  "name": "react-utils-custom-hooks",
   "author": "Carlos Manuel Gonzalez",
-  "module": "dist/react-custom-hooks.esm.js",
+  "module": "dist/react-utils-custom-hooks.esm.js",
   "size-limit": [
     {
-      "path": "dist/react-custom-hooks.cjs.production.min.js",
+      "path": "dist/react-utils-custom-hooks.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/react-custom-hooks.esm.js",
+      "path": "dist/react-utils-custom-hooks.esm.js",
       "limit": "10 KB"
     }
   ],
