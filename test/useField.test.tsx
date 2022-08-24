@@ -59,4 +59,12 @@ describe('Tests about useField', () => {
 
         expect(result.current.values).toEqual(initialValues);
     });
+
+    it('Should return true in the validation with the undefined funtion and field', () => {
+        const { result } = renderHook(() => useField(initialValues));
+        const { isValid } = result.current;
+
+        expect(isValid('name')).toBe(true);
+        expect(isValid('address')).toBe(true);
+    });
 });
