@@ -6,6 +6,13 @@ The library use [TSDX](https://github.com/jaredpalmer/tsdx) for the build the li
 
 ## Commands
 
+Install dependencies
+
+```bash
+npm install # or yarn install
+```
+
+
 The recommended workflow is to run TSDX in one terminal:
 
 ```bash
@@ -59,3 +66,7 @@ Two actions are added by default:
 
 - `main` which installs deps w/ cache, lints, tests, and builds on all pushes against a Node and OS matrix
 - `size` which comments cost comparison of your library on every pull request using [`size-limit`](https://github.com/ai/size-limit)
+
+### Developer
+
+[@cmglezdev](https://github.com/cmglezpdev): Carlos Manuel González Peña 
